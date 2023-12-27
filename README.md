@@ -86,7 +86,8 @@ There is a live demo of this project using Streamlit which you can find here. It
 
 streamlit run streamlit_app.py
 
-![WhatsApp Image 2023-12-27 at 17 59 37](https://github.com/Srilasya22/FraudDetection/assets/113256681/e47e0ebb-4df8-43ad-815a-1594ba2e9561)
+![WhatsApp Image 2023-12-27 at 17 59 37](https://github.com/Srilasya22/FraudDetection/assets/113256681/f6d58368-2734-4724-a30d-be0d258d84f9)
+
 
 # Model Monitoring
 
