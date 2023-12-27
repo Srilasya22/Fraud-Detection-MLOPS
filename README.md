@@ -58,7 +58,7 @@ kedro viz run
 # Solution
 Once model is build, it can be deployed in production to track the model. Deepchecks can be used to track model performance. Using Kedro we can monitor the logs in real-time as well as old logs can also be checked.
 
-# Training pipeline
+# Training Pipeline
 Our standard training pipeline consists of several steps:
 
 1. data_preprocessing: We will take the raw data and process it to standard polished data for model training.
@@ -80,7 +80,7 @@ Kedro can be used for log analysis as well.Here the log analysis of the project:
 ![WhatsApp Image 2023-12-27 at 17 59 01](https://github.com/Srilasya22/FraudDetection/assets/113256681/4f8b888d-03a7-4577-98cd-2995013f3777)
 
 
-# Demo Streamlit app
+# Demo Streamlit App
 
 There is a live demo of this project using Streamlit which you can find here. It takes some input features for the transaction and predicts whether the transaction is fraudlent or not. If you want to run this Streamlit app in your local system, you can run the following command to access the app locally:
 
