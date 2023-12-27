@@ -1,0 +1,1 @@
+{"raw_data": {"rows": 6362620, "columns": 11, "file_size": 493534783}, "processed_data": {"rows": 6362620, "columns": 7, "file_size": 356307829}, "x_resampled": {"rows": 12708814, "columns": 6, "file_size": 610024196}, "x_train": {"rows": 10167051, "columns": 6, "file_size": 569355989}, "x_test": {"rows": 2541763, "columns": 6, "file_size": 142339861}}

@@ -1,0 +1,29 @@
+[build-system]
+requires = [ "setuptools",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fraud_detection"
+readme = "README.md"
+dynamic = [ "dependencies", "version",]
+
+[project.scripts]
+fraud-detection = "fraud_detection.__main__:main"
+
+[tool.kedro]
+package_name = "fraud_detection"
+project_name = "Fraud_Detection"
+kedro_init_version = "0.19.1"
+tools = "[]"
+
+[project.entry-points."kedro.hooks"]
+
+[tool.setuptools.dynamic.dependencies]
+file = "requirements.txt"
+
+[tool.setuptools.dynamic.version]
+attr = "fraud_detection.__version__"
+
+[tool.setuptools.packages.find]
+where = [ "src",]
+namespaces = false
