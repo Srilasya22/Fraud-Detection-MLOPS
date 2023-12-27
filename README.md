@@ -73,11 +73,11 @@ Our standard training pipeline consists of several steps:
 
 Below is the pipeline workflow which we will implement in this project:
 
-![WhatsApp Image 2023-12-27 at 17 27 55](https://github.com/Srilasya22/Fraud-Detection/assets/113256681/8a42dc32-0751-495b-9746-d87276d36d8d)
+![WhatsApp Image 2023-12-27 at 17 27 55](https://github.com/Srilasya22/FraudDetection/assets/113256681/b5a40593-4d25-4d00-b03a-961ab946b4aa)
 
 # Log Analysis
 Kedro can be used for log analysis as well.Here the log analysis of the project:
-![WhatsApp Image 2023-12-27 at 17 59 01](https://github.com/Srilasya22/Fraud-Detection/assets/113256681/8cef011b-1f8e-46ec-a878-dedf95b5634a)
+![WhatsApp Image 2023-12-27 at 17 59 01](https://github.com/Srilasya22/FraudDetection/assets/113256681/4f8b888d-03a7-4577-98cd-2995013f3777)
 
 
 # Demo Streamlit app
@@ -86,7 +86,7 @@ There is a live demo of this project using Streamlit which you can find here. It
 
 streamlit run streamlit_app.py
 
-![WhatsApp Image 2023-12-27 at 17 59 37](https://github.com/Srilasya22/Fraud-Detection/assets/113256681/e47e0ebb-4df8-43ad-815a-1594ba2e9561)
+![WhatsApp Image 2023-12-27 at 17 59 37](https://github.com/Srilasya22/FraudDetection/assets/113256681/e47e0ebb-4df8-43ad-815a-1594ba2e9561)
 
 # Model Monitoring
 
