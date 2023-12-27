@@ -1,0 +1,9 @@
+# Pin problematic traitlets release -  https://github.com/jupyter/notebook/issues/7048
+pandas
+matplotlib
+seaborn
+numpy
+plotly
+imblearn
+scikit-learn
+xgboost
