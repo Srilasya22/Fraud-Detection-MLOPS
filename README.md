@@ -5,15 +5,15 @@ Online payment is the most popular transaction method in the world today. Howeve
 # Data
 The data used in this project is from kaggle website
 1. ``step``: Represents a unit of time where 1 step equals 1 hour
-2. type: type of online transaction
-3. amount: The amount of the transaction
-4. nameOrig: Customer initiating the transaction
-5. oldbalanceOrg: balance before the transaction of the customer initiating the transaction
-6. newbalanceOrig: balance after the transaction of the customer initiating the transaction
-7. nameDest: recipient of the transaction
-8. oldbalanceDest: initial balance of recipient before the transaction
-9. newbalanceDest: the new balance of recipient after the transaction
-10. isFraud: It is used to define whether a transaction is fraud or not
+2. ``type``: type of online transaction
+3. ``amount``: The amount of the transaction
+4. ``nameOrig``: Customer initiating the transaction
+5. ``oldbalanceOrg``: balance before the transaction of the customer initiating the transaction
+6. ``newbalanceOrig``: balance after the transaction of the customer initiating the transaction
+7. ``nameDest``: recipient of the transaction
+8. ``oldbalanceDest``: initial balance of recipient before the transaction
+9. ``newbalanceDest``: the new balance of recipient after the transaction
+10. ``isFraud``: It is used to define whether a transaction is fraud or not
 
 # Deployment
 Within the python environment of yout choice run:
@@ -26,11 +26,11 @@ pip install -r requirements.txt
 # Kedro
 Kedro is an open-source tool.It has the following features:
 
-1. Handles Complexity: It provide a stucture to test data which can be pushed to production after successful testing.
+- ``Handles Complexity``: It provide a stucture to test data which can be pushed to production after successful testing.
  
-2. Standardisation: It provides standard template for project. Making it earrlier to understand for others.
+- ``Standardisation``: It provides standard template for project. Making it earrlier to understand for others.
    
-3. Production-Ready: Code can be easily pushed to production with exploratory code that you can transition to reproducible, maintainable, and modular experiments.
+- ``Production-Ready``: Code can be easily pushed to production with exploratory code that you can transition to reproducible, maintainable, and modular experiments.
 
 ```bash
 
@@ -87,8 +87,9 @@ Kedro can be used for log analysis as well.Here the log analysis of the project:
 # Demo Streamlit App
 
 There is a live demo of this project using Streamlit which you can find here. It takes some input features for the transaction and predicts whether the transaction is fraudlent or not. If you want to run this Streamlit app in your local system, you can run the following command to access the app locally:
-
+```bash
 streamlit run streamlit_app.py
+```
 
 ![WhatsApp Image 2023-12-27 at 17 59 37](https://github.com/Srilasya22/FraudDetection/assets/113256681/f6d58368-2734-4724-a30d-be0d258d84f9)
 
