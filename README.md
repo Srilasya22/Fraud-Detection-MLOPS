@@ -4,7 +4,7 @@ Online payment is the most popular transaction method in the world today. Howeve
 
 # Data
 The data used in this project is from kaggle website
-1. step: Represents a unit of time where 1 step equals 1 hour
+1. ``step``: Represents a unit of time where 1 step equals 1 hour
 2. type: type of online transaction
 3. amount: The amount of the transaction
 4. nameOrig: Customer initiating the transaction
