@@ -17,10 +17,11 @@ The data used in this project is from kaggle website
 
 # Deployment
 Within the python environment of yout choice run:
-
+```bash
 git clone https://github.com/Srilasya22/FraudDetection.git
 
 pip install -r requirements.txt
+```
 
 # Kedro
 Kedro is an open-source tool.It has the following features:
