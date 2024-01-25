@@ -65,15 +65,15 @@ Once model is build, it can be deployed in production to track the model. Deepch
 # Training Pipeline
 Our standard training pipeline consists of several steps:
 
-1. data_preprocessing: We will take the raw data and process it to standard polished data for model training.
+1. ```data_preprocessing``: We will take the raw data and process it to standard polished data for model training.
 
-2. train_test_split: This pipeline will split the dataset into two part. On first part the model will be trained and on second set model will be tested.
+2. ``train_test_split``: This pipeline will split the dataset into two part. On first part the model will be trained and on second set model will be tested.
 
-3. Scaling: Standardizing the training input and testing input
+3. ``Scaling``: Standardizing the training input and testing input
   
-4. model_training: This pipeline is used to train model on dataset using hyperparameter.
+4. ``model_training``: This pipeline is used to train model on dataset using hyperparameter.
 
-5. model_evaluation: This pipeline is used to evaluate the model performance.
+5. ``model_evaluation``: This pipeline is used to evaluate the model performance.
 
 Below is the pipeline workflow which we will implement in this project:
 
