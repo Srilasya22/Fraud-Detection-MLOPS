@@ -18,7 +18,7 @@ The data used in this project is from kaggle website
 # Deployment
 Within the python environment of yout choice run:
 ```bash
-git clone https://github.com/Srilasya22/FraudDetection-MLOPS.git
+git clone https://github.com/Srilasya22/Fraud-Detection-MLOPS.git
 
 pip install -r requirements.txt
 ```
