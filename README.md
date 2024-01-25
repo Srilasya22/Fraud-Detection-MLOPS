@@ -32,6 +32,8 @@ Kedro is an open-source tool.It has the following features:
    
 3. Production-Ready: Code can be easily pushed to production with exploratory code that you can transition to reproducible, maintainable, and modular experiments.
 
+```bash
+
 #Installing kedro
 
 pip install kedro
@@ -55,6 +57,7 @@ kedro run
 #Visualizing pipeline
 
 kedro viz run
+```
 
 # Solution
 Once model is build, it can be deployed in production to track the model. Deepchecks can be used to track model performance. Using Kedro we can monitor the logs in real-time as well as old logs can also be checked.
